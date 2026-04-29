@@ -37,12 +37,12 @@ medical image segmentation tasks.
 
 ## Repository Structure
 
-VoluBrain/
-├── data/          
-├── notebooks/     # Jupyter notebooks for exploration and analysis
-├── src/           # Source code for segmentation and clustering
-├── results/       # Output results, metrics and visualizations
-└── README.md
+| Folder | Description |
+|--------|-------------|
+| `data/` | Dataset files |
+| `notebooks/` | Jupyter notebooks for exploration and analysis |
+| `src/` | Source code for segmentation and clustering |
+| `results/` | Output results, metrics and visualizations |
 
 
 ## Methods
