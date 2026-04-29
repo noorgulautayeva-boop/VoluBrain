@@ -8,17 +8,23 @@ Alzheimer's disease (AD).
 
 This project is part of Challenge #3 from the Biomedical Image Analysis course, 
 aiming to develop an AI architecture capable of generalizing across multiple 
-medical image segmentation tasks.
+medical image segmentation tasks and enabling accurate hippocampal volume 
+extraction for further clinical analysis.
 
 ## Dataset
 **Task04_Hippocampus** from the Medical Segmentation Decathlon (MSD):
-- 394 3D MRI volumes (263 training / 131 test)
+- 390 3D MRI volumes  
+  - 260 training volumes  
+  - 130 test volumes *(not used, as ground truth labels are not available)*
 - Modality: T1-weighted MRI
-- Target regions: anterior and posterior hippocampus
+- Target regions  
+  - 0 → Background  
+  - 1 → Anterior hippocampus  
+  - 2 → Posterior hippocampus
 - Source: Vanderbilt University Medical Center, Nashville, US
 - License: CC-BY-SA 4.0 (open access)
 
-## Project Goals
+## Project Goals (review)
 ### 1. Segmentation
 - Research and implement deep learning architectures (U-Net / nnU-Net) 
   for 3D hippocampus segmentation
