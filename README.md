@@ -13,10 +13,12 @@ extraction for further clinical analysis.
 
 ## Dataset
 **Task04_Hippocampus** from the Medical Segmentation Decathlon (MSD):
-- 390 3D MRI volumes  
+- 390 total MRI volumes  
   - 260 training volumes  
   - 130 test volumes *(not used, as ground truth labels are not available)*
 - Modality: T1-weighted MRI
+- Image format: NIfTI (`.nii.gz`)  
+- Tensor dimension: 3D volumetric images
 - Target regions  
   - 0 → Background  
   - 1 → Anterior hippocampus  
