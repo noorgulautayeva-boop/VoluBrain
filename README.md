@@ -28,7 +28,7 @@ extraction for further clinical analysis.
 
 ## Project Goals (review)
 ### 1. Segmentation
-- Research and implement deep learning architectures (U-Net / nnU-Net) 
+- Research and implement deep learning architectures (U-Net / U-Net++) 
   for 3D hippocampus segmentation
 - Segment anterior and posterior hippocampus separately
 - Evaluate performance using Dice Similarity Coefficient (DSC)
